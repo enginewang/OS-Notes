@@ -1,7 +1,6 @@
 ### 文件管理与I/O
 
-<img src="/assets/Screen%20Shot%202019-06-08%20at%207.00.30%20PM.png" width="60%">
-
+![](https://res.cloudinary.com/dbmkzs2ez/image/upload/v1645945891/os-io-1.png)
 
 #### 文件基本概念
 
@@ -75,10 +74,8 @@ FCB包括基本信息、存取控制信息和使用信息
 
 加密保护和访问控制：加密保护安全性更高，访问控制灵活性更好。访问控制需要由系统实现来保证安全性
 
-<img src="/assets/Screen%20Shot%202019-06-17%20at%205.50.15%20AM.png" width="70%">
+![](https://res.cloudinary.com/dbmkzs2ez/image/upload/v1645945891/os-io-2.png)
 
-
-<br>
 
 ##### 错题归纳
 
@@ -89,16 +86,12 @@ FCB包括基本信息、存取控制信息和使用信息
 - 对一个访问的限制，常由用户访问权限和文件属性共同限制，与优先级无关
 - 一个文件被用户首次打开的过程中，操作系统需要将文件控制块读到内存中，不是文件内容
 
-<br>
-
-<br>
-
 
 #### 文件系统实现
 
 ##### 文件系统层次结构
 
-![Screen Shot 2019-06-17 at 6.50.59 AM](/assets/Screen%20Shot%202019-06-17%20at%206.50.59%20AM.png)
+![](https://res.cloudinary.com/dbmkzs2ez/image/upload/v1645945891/os-io-3.png)
 
 1. 用户调用接口：给用户文件操控的接口
 2. 文件目录系统：管理文件目录
@@ -139,19 +132,14 @@ FCB包括基本信息、存取控制信息和使用信息
 
 每个文件设置一个索引块，是一个磁盘块地址的数组
 
-![Screen Shot 2019-06-17 at 7.17.02 AM](/assets/Screen%20Shot%202019-06-17%20at%207.17.02%20AM.png)
+![](https://res.cloudinary.com/dbmkzs2ez/image/upload/v1645945891/os-io-4.png)
 
-![Screen Shot 2019-06-17 at 7.33.44 AM](/assets/Screen%20Shot%202019-06-17%20at%207.33.44%20AM.png)
+![](https://res.cloudinary.com/dbmkzs2ez/image/upload/v1645945891/os-io-5.png)
 
-<br>
 
 ##### 错题归纳
 
 - 文件储存空间的管理实质上是对外存空闲区的管理和组织
-
-<br>
-
-<br>
 
 
 #### 磁盘结构
